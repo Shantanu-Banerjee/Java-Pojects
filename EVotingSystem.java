@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import javax.swing.*;
 
- class EVotingSystem {
+public class EVotingSystem {
 
     private JFrame mainFrame;
     private Connection connection;
@@ -26,8 +26,8 @@ import javax.swing.*;
     private void initialize() throws SQLException {
         // Database Connection
         String url = "jdbc:mysql://localhost:3306/evoting";
-        String user = "root";
-        String password = "Bsmps@1234"; 
+        String user = "";
+        String password = ""; 
 
         connection = DriverManager.getConnection(url, user, password);
 
