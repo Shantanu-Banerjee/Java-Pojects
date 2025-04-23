@@ -1,4 +1,5 @@
 E-Voting System (Java + Swing + JDBC)
+
 This is a Java-based E-Voting System project that simulates a simple electronic voting platform with login, registration, secure authentication, vote casting, and admin result management. Built with Java Swing for GUI and MySQL for data persistence, it showcases concepts like authentication, GUI design, JDBC, and secure password hashing.
 
 📌 Features
